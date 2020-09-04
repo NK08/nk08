@@ -1,0 +1,46 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: Oswald;
+	background: url(header.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-ms-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 3.2em;
+	color: #e2dbdb;
+}
+
+.btn {
+	font-weight: 700%;
+	border-radius: 400px;
+	text-transform: uppercase;
+}
+
+.btn-light {
+	background-color: rgb(222,92,92);
+	border-color: rgb(222,92,92);
+}
+
+hr {
+	background-color: rgb(222,92,92);
+	border-width: 1.7px;
+	max-width: 70px;
+}
+
+.buffer {
+	height: 10em;
+}
+
+.btn-light:hover {
+	border: 6px;
+}
+
+.btn-xl {
+	padding: 1em 2em;
+}
